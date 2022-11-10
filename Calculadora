@@ -1,0 +1,26 @@
+operador = input('''
+Digite um operador:
++ for adição
+- for subtração
+* for multiplicação
+/ for divisão
+''')
+
+numero_1 = int(input('Digite o 1° número: '))
+numero_2 = int(input('Digite o 2° número: '))
+
+if operador == '+':
+  print('{} + {} = '.format(numero_1, numero_2))
+  print(numero_1 + numero_2)
+
+if operador == '-':
+  print('{} + {} = '.format(numero_1, numero_2))
+  print(numero_1 - numero_2)
+
+if operador == '*':
+  print('{} + {} = '.format(numero_1, numero_2))
+  print(numero_1 * numero_2)
+
+if operador == '/':
+  print('{} + {} = '.format(numero_1, numero_2))
+  print(numero_1 / numero_2)
