@@ -24,3 +24,6 @@ if operador == '*':
 if operador == '/':
   print('{} + {} = '.format(numero_1, numero_2))
   print(numero_1 / numero_2)
+
+else: 
+  print('Você digitou um operador inválido')
